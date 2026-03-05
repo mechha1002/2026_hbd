@@ -3,11 +3,13 @@ import subprocess
 import datetime
 
 # Set the target date and time (Year, Month, Day, Hour, Minute)
-target_time = datetime.datetime(2026, 3, 8, 15, 6)
+target_time = datetime.datetime(2026, 3, 8, 0, 0)
+# target_time = datetime.datetime(2026, 3, 5, 16, 23)
 
 # Put her actual phone number here (with country code, e.g., "+12345678900")
+# phone_number = "+17808506082" 
 phone_number = "+14169095115" 
-message = "Happy Birthday! I made this for you: https://mechha1002.github.io/2026_hbd/"
+message = "Happy Birthday! For you: https://mechha1002.github.io/2026_hbd/"
 
 def schedule_imessage():
     now = datetime.datetime.now()
