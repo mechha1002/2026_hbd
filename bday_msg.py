@@ -3,7 +3,7 @@ import subprocess
 import datetime
 
 # Set the target date and time (Year, Month, Day, Hour, Minute)
-target_time = datetime.datetime(2026, 3, 5, 15, 6)
+target_time = datetime.datetime(2026, 3, 8, 15, 6)
 
 # Put her actual phone number here (with country code, e.g., "+12345678900")
 phone_number = "+14169095115" 
