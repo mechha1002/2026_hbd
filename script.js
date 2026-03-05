@@ -9,5 +9,5 @@ document.getElementById('confetti-btn').addEventListener('click', () => {
     
     // Optional: Change button text after clicking
     const btn = document.getElementById('confetti-btn');
-    btn.innerText = "Happy Birthday! 💖";
+    btn.innerText = "생일 축하해요! 💖";
 });
