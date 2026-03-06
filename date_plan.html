@@ -22,7 +22,7 @@
                 </div>
                 <div class="item" data-time="2026-03-08T13:00:00" data-location="Brunch Cafe, Toronto">
                     <span class="time" data-original-time="1:00 - 2:30"></span>
-                    <span class="activity" data-original="Brunch Cafe? ☕️"></span>
+                    <span class="activity" data-original="Brunch Cafe ☕️"></span>
                 </div>
                 <div class="item" data-time="2026-03-08T15:10:00" data-location="Cineplex Cinemas Yonge-Dundas and VIP, Toronto">
                     <span class="time" data-original-time="3:10 - 5:00"></span>
@@ -59,7 +59,7 @@
                 if (eventTimeStr) {
                     const eventTime = new Date(eventTimeStr);
                     const diffMs = eventTime - now;
-                    const oneHourMs = 60 * 60 * 1000;
+                    const oneHourMs = 60 * 60 * 1000;                              
 
                     // If current time is past (eventTime - 1 hour), reveal it
                     if (diffMs <= oneHourMs) {
