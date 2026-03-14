@@ -7,8 +7,8 @@ target_time = datetime.datetime(2026, 3, 8, 0, 0)
 # target_time = datetime.datetime(2026, 3, 5, 16, 23)
 
 # Put her actual phone number here (with country code, e.g., "+12345678900")
-phone_number = "+17808506082" 
-# phone_number = "+14169095115" 
+phone_number = "+1" 
+# phone_number = "+1" 
 message = "Happy Birthday! For you: https://mechha1002.github.io/2026_hbd/"
 
 def schedule_imessage():
